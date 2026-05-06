@@ -178,6 +178,11 @@ footer{background:#111;color:#fff;padding:50px 40px 28px}
 /* WA FLOAT */
 .wa-float{position:fixed;bottom:24px;right:24px;background:#25d366;color:#fff;width:56px;height:56px;display:flex;align-items:center;justify-content:center;border-radius:50%;font-weight:bold;font-size:22px;text-decoration:none;z-index:999;box-shadow:0 4px 16px rgba(37,211,102,0.5);transition:0.3s}
 .wa-float:hover{transform:scale(1.1)}
+.wa-float img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
 
 /* BACK BUTTON */
 .back-btn{display:inline-flex;align-items:center;gap:8px;color:var(--red);font-weight:700;font-size:14px;text-transform:uppercase;letter-spacing:1px;cursor:pointer;margin-bottom:20px;padding:10px 0}
@@ -440,8 +445,9 @@ footer{background:#111;color:#fff;padding:50px 40px 28px}
   <div class="footer-bottom"><p>© 2026 LAS BAJA INDONESIA — Jasa Las Baja Profesional Jabodetabek & Seluruh Indonesia</p></div>
 </footer>
 
-<a href="https://wa.me/6285811251660" class="wa-float" target="_blank" title="Chat WhatsApp">💬</a>
-
+<a href="https://wa.me/6285811251660" class="wa-float" target="_blank" title="Chat WhatsApp">
+  <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
+</a>
 <script>
 // ===== DATA =====
 const areaData = {
