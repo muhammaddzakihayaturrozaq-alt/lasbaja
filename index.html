@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title id="page-title">LAS BAJA INDONESIA | Jasa Las Baja Profesional Jabodetabek & Seluruh Indonesia</title>
+<meta name="description" id="page-desc" content="Jasa las baja profesional, supplier baja WF, dan proyek konstruksi baja skala kecil hingga besar di Jabodetabek & seluruh Indonesia. 17 tahun pengalaman, 1500+ proyek selesai.">
+<meta name="keywords" content="jasa las baja, jasa las baja jabodetabek, baja ringan jabodetabek, baja wf, baja jabodetabek, baja jakarta, baja terdekat, jasa las baja terdekat, supplier baja, konstruksi baja, las baja jakarta, las baja bogor, las baja depok, las baja tangerang, las baja bekasi">
+<meta property="og:title" content="LAS BAJA INDONESIA | Jasa Las Baja Profesional Jabodetabek">
+<meta property="og:description" content="Jasa las baja profesional, supplier baja WF, dan proyek konstruksi baja di seluruh Indonesia. 17 tahun pengalaman.">
+<meta property="og:type" content="website">
+<link rel="canonical" href="https://lasbajaindo.com/">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --red:#b30000;
+  --red-dark:#8a0000;
+  --red-light:#d90000;
+  --black:#0d0d0d;
+  --gray:#f4f4f4;
+  --gray2:#e8e8e8;
+  --text:#1c1c1c;
+  --white:#ffffff;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:'Source Sans 3',sans-serif;color:var(--text);background:var(--white);line-height:1.7}
+
+/* HEADER */
+header{position:fixed;width:100%;top:0;background:rgba(179,0,0,0.97);color:#fff;padding:14px 40px;display:flex;justify-content:space-between;align-items:center;z-index:1000;backdrop-filter:blur(6px);box-shadow:0 2px 20px rgba(0,0,0,0.3)}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none;color:#fff}
+.logo img {
+  height: 38px;
+  width: auto;
+  object-fit: contain;
+}
+.logo-icon{background:#fff;color:var(--red);width:38px;height:38px;display:flex;align-items:center;justify-content:center;font-weight:900;font-family:'Oswald',sans-serif;font-size:16px;border-radius:4px}
+.logo-text{font-family:'Oswald',sans-serif;font-size:18px;font-weight:700;letter-spacing:1px}
+nav{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+nav a{color:#fff;padding:7px 14px;text-decoration:none;font-weight:600;font-size:14px;border-radius:4px;transition:0.2s;cursor:pointer}
+nav a:hover,nav a.active{background:rgba(255,255,255,0.2)}
+.nav-wa{background:#25d366!important;border-radius:20px!important;padding:7px 16px!important}
+
+/* PAGES */
+.page{display:none}
+.page.active{display:block}
+
+/* HERO */
+.hero{height:100vh;background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('https://res.cloudinary.com/denrtx3a9/image/upload/v1777533967/GetPaidStock.com-655b02beeb6eb-qfmpcie8vx14a2c7ekljc1k61gs6wa5vzpwmtgna88_cmjqmn.jpg') center/cover;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;color:#fff;padding:20px;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;bottom:0;left:0;right:0;height:6px;background:linear-gradient(90deg,var(--red),#ff4444,var(--red))}
+.hero-badge{background:var(--red);color:#fff;font-size:12px;font-weight:700;letter-spacing:2px;padding:6px 16px;border-radius:2px;margin-bottom:20px;text-transform:uppercase}
+.hero h1{font-family:'Oswald',sans-serif;font-size:58px;font-weight:700;margin-bottom:16px;line-height:1.1;max-width:900px;text-transform:uppercase}
+.hero h1 span{color:#ff6666}
+.hero p{font-size:18px;max-width:680px;opacity:0.9;margin-bottom:30px}
+.hero-btns{display:flex;gap:16px;flex-wrap:wrap;justify-content:center}
+.btn{background:var(--red);color:#fff;padding:14px 32px;border-radius:4px;text-decoration:none;font-weight:700;font-family:'Oswald',sans-serif;font-size:16px;letter-spacing:1px;transition:0.3s;cursor:pointer;border:none;display:inline-block}
+.btn:hover{background:var(--red-dark);transform:translateY(-2px)}
+.btn-outline{background:transparent;border:2px solid #fff;color:#fff}
+.btn-outline:hover{background:#fff;color:var(--red)}
+.hero-stats{display:flex;gap:50px;margin-top:40px;flex-wrap:wrap;justify-content:center}
+.hero-stat{text-align:center}
+.hero-stat strong{display:block;font-family:'Oswald',sans-serif;font-size:40px;color:#ff6666}
+.hero-stat span{font-size:13px;opacity:0.8;text-transform:uppercase;letter-spacing:1px}
+
+/* SECTIONS */
+.section{padding:80px 40px;max-width:1200px;margin:auto}
+.section-full{padding:80px 40px;background:var(--gray)}
+.section-full .section{padding-top:0;padding-bottom:0}
+h2.section-title{font-family:'Oswald',sans-serif;font-size:38px;font-weight:700;text-align:center;margin-bottom:12px;text-transform:uppercase;color:var(--black)}
+.section-subtitle{text-align:center;color:#666;font-size:17px;margin-bottom:50px;max-width:600px;margin-left:auto;margin-right:auto}
+.red-line{width:60px;height:4px;background:var(--red);margin:12px auto 30px}
+
+/* SERVICES GRID */
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:28px}
+.card{background:#fff;border-radius:8px;overflow:hidden;box-shadow:0 4px 30px rgba(0,0,0,0.08);transition:0.3s;border-top:4px solid var(--red)}
+.card:hover{transform:translateY(-6px);box-shadow:0 12px 40px rgba(0,0,0,0.15)}
+.card img{width:100%;height:210px;object-fit:cover}
+.card-content{padding:24px}
+.card-content h3{font-family:'Oswald',sans-serif;font-size:22px;margin-bottom:10px;text-transform:uppercase}
+.card-content p{color:#555;font-size:15px}
+
+/* AREA CARDS */
+.area-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px}
+.area-card{background:#fff;border-radius:8px;overflow:hidden;box-shadow:0 4px 24px rgba(0,0,0,0.09);cursor:pointer;transition:0.3s;position:relative}
+.area-card:hover{transform:translateY(-5px);box-shadow:0 10px 36px rgba(0,0,0,0.16)}
+.area-card img{width:100%;height:200px;object-fit:cover;display:block}
+.area-card-overlay{position:absolute;bottom:0;left:0;right:0;background:linear-gradient(transparent,rgba(0,0,0,0.85));padding:20px 18px 18px}
+.area-card-overlay h3{font-family:'Oswald',sans-serif;color:#fff;font-size:22px;font-weight:700;text-transform:uppercase}
+.area-card-overlay p{color:rgba(255,255,255,0.75);font-size:13px;margin-top:2px}
+.area-badge{position:absolute;top:14px;right:14px;background:var(--red);color:#fff;font-size:11px;font-weight:700;padding:4px 10px;border-radius:2px;letter-spacing:1px;text-transform:uppercase}
+.lihat-detail{display:inline-block;margin-top:10px;color:var(--red);font-weight:700;font-size:13px;text-transform:uppercase;letter-spacing:1px}
+.lihat-detail:hover{text-decoration:underline}
+
+/* AREA PAGE */
+.area-hero{height:60vh;display:flex;flex-direction:column;justify-content:flex-end;padding:50px;color:#fff;position:relative;background-size:cover;background-position:center;min-height:400px}
+.area-hero::before{content:'';position:absolute;inset:0;background:linear-gradient(transparent 20%,rgba(0,0,0,0.85))}
+.area-hero-content{position:relative}
+.breadcrumb{display:flex;align-items:center;gap:8px;margin-bottom:12px;font-size:13px;opacity:0.8}
+.breadcrumb a{color:#fff;text-decoration:none;cursor:pointer}
+.breadcrumb a:hover{text-decoration:underline}
+.area-hero h1{font-family:'Oswald',sans-serif;font-size:52px;font-weight:700;text-transform:uppercase;line-height:1}
+.area-hero .label{font-size:13px;font-weight:700;letter-spacing:3px;text-transform:uppercase;margin-bottom:8px;color:#ff9999}
+
+.area-body{display:grid;grid-template-columns:1fr 360px;gap:50px;padding:60px 40px;max-width:1200px;margin:auto;align-items:start}
+@media(max-width:900px){.area-body{grid-template-columns:1fr}}
+.area-main h2{font-family:'Oswald',sans-serif;font-size:28px;margin:30px 0 12px;text-transform:uppercase}
+.area-main p{color:#444;margin-bottom:16px;font-size:16px}
+.kecamatan-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:10px;margin:16px 0 30px}
+.kec-item{background:var(--gray);border-left:3px solid var(--red);padding:10px 14px;font-size:14px;font-weight:600;border-radius:0 4px 4px 0}
+.faq-item{border:1px solid var(--gray2);border-radius:6px;margin-bottom:12px;overflow:hidden}
+.faq-q{padding:16px 20px;font-weight:700;cursor:pointer;display:flex;justify-content:space-between;align-items:center;font-size:15px}
+.faq-q:hover{background:var(--gray)}
+.faq-a{padding:0 20px;max-height:0;overflow:hidden;transition:0.3s;font-size:15px;color:#555}
+.faq-a.open{max-height:300px;padding:12px 20px 18px}
+.faq-icon{font-size:20px;transition:0.3s;color:var(--red)}
+.faq-item.open .faq-icon{transform:rotate(45deg)}
+.sidebar-card{background:#fff;border:1px solid var(--gray2);border-radius:8px;padding:28px;position:sticky;top:90px;box-shadow:0 4px 24px rgba(0,0,0,0.07)}
+.sidebar-card h3{font-family:'Oswald',sans-serif;font-size:20px;margin-bottom:8px;text-transform:uppercase}
+.sidebar-card ul{list-style:none;padding:0;margin:14px 0}
+.sidebar-card ul li{padding:7px 0;border-bottom:1px solid var(--gray2);font-size:14px;display:flex;align-items:center;gap:8px}
+.sidebar-card ul li::before{content:'✓';color:var(--red);font-weight:900}
+.wa-btn{background:#25d366;color:#fff;padding:14px 24px;border-radius:4px;text-decoration:none;font-weight:700;display:flex;align-items:center;justify-content:center;gap:10px;margin-top:16px;font-size:15px;transition:0.3s}
+.wa-btn:hover{background:#1aab54}
+
+/* CITIES AREA SUB-GRID */
+.sub-area-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:12px;margin:24px 0}
+.sub-area-btn{background:var(--white);border:1px solid var(--gray2);border-radius:6px;padding:12px 16px;text-align:center;cursor:pointer;font-size:13px;font-weight:600;transition:0.2s;text-decoration:none;color:var(--text)}
+.sub-area-btn:hover{background:var(--red);color:#fff;border-color:var(--red)}
+
+/* SERVICE LIST */
+.service-list{list-style:none;padding:0}
+.service-list li{padding:10px 0;border-bottom:1px solid var(--gray2);display:flex;align-items:flex-start;gap:12px;font-size:15px}
+.service-list li::before{content:'▶';color:var(--red);font-size:11px;margin-top:4px;flex-shrink:0}
+
+/* NATIONAL */
+.national-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px}
+.national-card{background:var(--white);border-radius:6px;padding:20px;border-left:4px solid var(--red);box-shadow:0 2px 12px rgba(0,0,0,0.06)}
+.national-card h4{font-family:'Oswald',sans-serif;font-size:18px;margin-bottom:8px;text-transform:uppercase}
+.national-card p{font-size:13px;color:#666}
+
+/* CTA BANNER */
+.cta-banner{background:linear-gradient(135deg,#8a0000,var(--red));color:#fff;text-align:center;padding:70px 40px;border-radius:12px;margin:30px 0}
+.cta-banner h2{font-family:'Oswald',sans-serif;font-size:36px;margin-bottom:14px;text-transform:uppercase}
+.cta-banner p{font-size:17px;max-width:600px;margin:0 auto 26px;opacity:0.9}
+
+/* STATS STRIP */
+.stats-strip{background:var(--black);color:#fff;padding:40px}
+.stats-inner{max-width:1200px;margin:auto;display:flex;justify-content:space-around;flex-wrap:wrap;gap:20px;text-align:center}
+.stat-item strong{display:block;font-family:'Oswald',sans-serif;font-size:44px;color:#ff6666}
+.stat-item span{font-size:14px;text-transform:uppercase;letter-spacing:1px;opacity:0.7}
+
+/* GALLERY */
+.gallery{columns:3;column-gap:16px}
+.gallery img{width:100%;margin-bottom:16px;border-radius:8px;break-inside:avoid;transition:0.3s;cursor:pointer}
+.gallery img:hover{opacity:0.88;transform:scale(1.02)}
+@media(max-width:768px){.gallery{columns:1}.hero h1{font-size:36px}.area-hero h1{font-size:34px}.area-body{padding:30px 20px}.section{padding:50px 20px}.section-full{padding:50px 20px}header{padding:14px 20px}.hero-stats{gap:24px}}
+
+/* FOOTER */
+footer{background:#111;color:#fff;padding:50px 40px 28px}
+.footer-inner{max-width:1200px;margin:auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:30px;margin-bottom:30px}
+.footer-col h4{font-family:'Oswald',sans-serif;font-size:16px;text-transform:uppercase;margin-bottom:14px;letter-spacing:1px;color:#ff9999}
+.footer-col p,.footer-col a{font-size:14px;color:rgba(255,255,255,0.65);line-height:2;text-decoration:none;display:block}
+.footer-col a:hover{color:#fff}
+.footer-bottom{border-top:1px solid rgba(255,255,255,0.1);padding-top:20px;text-align:center;font-size:13px;color:rgba(255,255,255,0.4)}
+
+/* WA FLOAT */
+.wa-float{position:fixed;bottom:24px;right:24px;background:#25d366;color:#fff;width:56px;height:56px;display:flex;align-items:center;justify-content:center;border-radius:50%;font-weight:bold;font-size:22px;text-decoration:none;z-index:999;box-shadow:0 4px 16px rgba(37,211,102,0.5);transition:0.3s}
+.wa-float:hover{transform:scale(1.1)}
+
+/* BACK BUTTON */
+.back-btn{display:inline-flex;align-items:center;gap:8px;color:var(--red);font-weight:700;font-size:14px;text-transform:uppercase;letter-spacing:1px;cursor:pointer;margin-bottom:20px;padding:10px 0}
+.back-btn:hover{opacity:0.7}
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+  <a class="logo" onclick="showPage('home')" href="#">
+    <img src="https://res.cloudinary.com/denrtx3a9/image/upload/v1778085879/ChatGPT_Image_May_6_2026_11_42_29_PM_pt25qh.png" alt="Logo Las Baja Indonesia">
+    <span class="logo-text">LAS BAJA INDONESIA</span>
+  </a>
+  <nav>
+    <a onclick="showPage('home')" href="#">Home</a>
+    <a onclick="showPage('area')" href="#">Area Layanan</a>
+    <a onclick="document.getElementById('layanan')?.scrollIntoView({behavior:'smooth'});showPage('home')" href="#">Layanan</a>
+    <a onclick="document.getElementById('gallery')?.scrollIntoView({behavior:'smooth'});showPage('home')" href="#">Proyek</a>
+    <a href="https://wa.me/6285811251660?text=Halo%20saya%20tertarik%20dengan%20jasa%20las%20baja" class="nav-wa" target="_blank">📞 WhatsApp</a>
+  </nav>
+</header>
+
+<!-- ===================== HOME PAGE ===================== -->
+<div class="page active" id="page-home">
+
+  <!-- HERO -->
+  <div class="hero">
+    <div class="hero-badge">🔥 #1 Jasa Las Baja Jabodetabek & Seluruh Indonesia</div>
+    <h1>Jasa Las Baja <span>Profesional</span> & Supplier Baja WF Terpercaya</h1>
+    <p>Partner terpercaya untuk jasa las baja, pengadaan material baja WF, hingga proyek konstruksi skala kecil hingga besar di seluruh Indonesia — 17 tahun pengalaman, 1500+ proyek berhasil.</p>
+    <div class="hero-btns">
+      <a href="https://wa.me/6285811251660?text=Halo%20saya%20tertarik%20konsultasi%20jasa%20las%20baja" class="btn" target="_blank">💬 Konsultasi Gratis</a>
+      <a onclick="showPage('area')" class="btn btn-outline" href="#">📍 Lihat Area Layanan</a>
+    </div>
+    <div class="hero-stats">
+      <div class="hero-stat"><strong>17+</strong><span>Tahun Pengalaman</span></div>
+      <div class="hero-stat"><strong>1500+</strong><span>Proyek Selesai</span></div>
+      <div class="hero-stat"><strong>150+</strong><span>Tenaga Profesional</span></div>
+      <div class="hero-stat"><strong>34+</strong><span>Provinsi Terlayani</span></div>
+    </div>
+  </div>
+
+  <!-- STATS STRIP -->
+  <div class="stats-strip">
+    <div class="stats-inner">
+      <div class="stat-item"><strong>17+</strong><span>Tahun Berpengalaman</span></div>
+      <div class="stat-item"><strong>1500+</strong><span>Proyek Selesai</span></div>
+      <div class="stat-item"><strong>150+</strong><span>Tenaga Ahli</span></div>
+      <div class="stat-item"><strong>100%</strong><span>Bergaransi</span></div>
+    </div>
+  </div>
+
+  <!-- LAYANAN -->
+  <section class="section" id="layanan">
+    <h2 class="section-title">Layanan Unggulan Kami</h2>
+    <div class="red-line"></div>
+    <p class="section-subtitle">Kami menyediakan solusi lengkap kebutuhan baja dari jasa las, supplier material, hingga proyek konstruksi berskala besar.</p>
+    <div class="grid">
+      <div class="card">
+        <img src="https://res.cloudinary.com/denrtx3a9/image/upload/v1777533972/bj-wf2-768x768_etjywo.png" alt="Jasa Las Baja Profesional Jabodetabek">
+        <div class="card-content">
+          <h3>Jasa Las Baja Profesional</h3>
+          <p>Pengerjaan las baja presisi tinggi dengan hasil kuat, rapi, dan tahan lama. Melayani konstruksi ringan hingga struktur berat dengan tenaga welder bersertifikat untuk seluruh wilayah Jabodetabek dan Indonesia.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://res.cloudinary.com/denrtx3a9/image/upload/v1777533975/baja-las_k6cmas.png" alt="Supplier Baja WF dan Material Konstruksi">
+        <div class="card-content">
+          <h3>Supplier Baja WF & Material</h3>
+          <p>Penyediaan baja WF, baja ringan, hollow, canal C, dan berbagai material konstruksi berkualitas SNI. Harga kompetitif, stok lengkap, pengiriman cepat ke seluruh Jabodetabek dan kota-kota besar Indonesia.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://res.cloudinary.com/denrtx3a9/image/upload/v1777534111/1_glkwt0.jpg" alt="Proyek Konstruksi Baja Skala Besar">
+        <div class="card-content">
+          <h3>Proyek Pengadaan Baja</h3>
+          <p>Solusi proyek konstruksi baja dari perencanaan, desain teknis, pengadaan material, hingga pemasangan. Melayani proyek skala kecil, menengah, hingga besar untuk gedung, gudang, pabrik, dan infrastruktur.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AREA SECTION -->
+  <div class="section-full" id="area-section">
+    <div class="section">
+      <h2 class="section-title">Area Layanan Kami</h2>
+      <div class="red-line"></div>
+      <p class="section-subtitle">Kami melayani jasa las baja dan supplier baja di seluruh wilayah Jabodetabek serta kota-kota besar Indonesia.</p>
+      <div class="area-grid">
+        <div class="area-card" onclick="showAreaPage('jakarta')">
+          <img src="https://res.cloudinary.com/denrtx3a9/image/upload/v1777534113/Whisk_6801422eaf960638d55492cfd1428533dr_odtfv1.jpg" alt="Jasa Las Baja Jakarta">
+          <div class="area-badge">Utama</div>
+          <div class="area-card-overlay">
+            <h3>Jasa Las Baja Jakarta</h3>
+            <p>Jakarta Selatan, Barat, Timur, Utara, Pusat</p>
+            <span class="lihat-detail">Lihat Detail →</span>
+          </div>
+        </div>
+        <div class="area-card" onclick="showAreaPage('bogor')">
+          <img src="https://res.cloudinary.com/denrtx3a9/image/upload/v1777534105/Whisk_a31b1e87904894f83804ce680f124e24dr_bc0q9i.jpg" alt="Jasa Las Baja Bogor">
+          <div class="area-card-overlay">
+            <h3>Jasa Las Baja Bogor</h3>
+            <p>Kota Bogor, Cibinong, Cileungsi, Parung</p>
+            <span class="lihat-detail">Lihat Detail →</span>
+          </div>
+        </div>
+        <div class="area-card" onclick="showAreaPage('depok')">
+          <img src="https://res.cloudinary.com/denrtx3a9/image/upload/v1777534105/Whisk_6fc1000b29e45d3b0504cbdf9532142fdr_iovui3.jpg" alt="Jasa Las Baja Depok">
+          <div class="area-card-overlay">
+            <h3>Jasa Las Baja Depok</h3>
+            <p>Depok, Cinere, Cimanggis, Sawangan</p>
+            <span class="lihat-detail">Lihat Detail →</span>
+          </div>
+        </div>
+        <div class="area-card" onclick="showAreaPage('tangerang')">
+          <img src="https://res.cloudinary.com/denrtx3a9/image/upload/v1777534108/Whisk_9b8ab3cfa1ab64dae0b42539aaab6542dr_fuctqx.jpg" alt="Jasa Las Baja Tangerang">
+          <div class="area-card-overlay">
+            <h3>Jasa Las Baja Tangerang</h3>
+            <p>Kota Tangerang, Tangerang Selatan, Serpong, BSD</p>
+            <span class="lihat-detail">Lihat Detail →</span>
+          </div>
+        </div>
+        <div class="area-card" onclick="showAreaPage('bekasi')">
+          <img src="https://res.cloudinary.com/denrtx3a9/image/upload/v1777534109/Whisk_5f82684512db64ea675458fdbddfd58ddr_oaorh0.jpg" alt="Jasa Las Baja Bekasi">
+          <div class="area-card-overlay">
+            <h3>Jasa Las Baja Bekasi</h3>
+            <p>Kota Bekasi, Cikarang, Tambun, Cibitung</p>
+            <span class="lihat-detail">Lihat Detail →</span>
+          </div>
+        </div>
+        <div class="area-card" onclick="showAreaPage('nasional')">
+          <img src="https://res.cloudinary.com/denrtx3a9/image/upload/v1777534110/Whisk_4579e8938f31d09b3924d0ef19fe2826dr_rtjavx.jpg" alt="Jasa Las Baja Seluruh Indonesia">
+          <div class="area-badge" style="background:#333">Nasional</div>
+          <div class="area-card-overlay">
+            <h3>Proyek Seluruh Indonesia</h3>
+            <p>Bandung, Surabaya, Semarang, Bali & lebih banyak</p>
+            <span class="lihat-detail">Lihat Detail →</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- KOMITMEN -->
+  <section class="section">
+    <div style="background:var(--gray);border-radius:12px;padding:50px;text-align:center;border-top:4px solid var(--red)">
+      <h2 class="section-title" style="text-align:center">Komitmen Kami</h2>
+      <div class="red-line"></div>
+      <p style="max-width:750px;margin:0 auto;color:#555;font-size:17px;line-height:1.9">Dengan pengalaman lebih dari 17 tahun di industri konstruksi baja Indonesia, kami berkomitmen memberikan solusi terbaik untuk setiap proyek. Tim profesional kami siap memastikan pekerjaan las baja dikerjakan dengan standar kualitas tertinggi — dari material baja WF berkualitas SNI hingga pengerjaan yang presisi dan tepat waktu. Kepuasan klien adalah prioritas utama kami di setiap proyek, dari skala rumah tangga hingga proyek industri besar.</p>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <div class="section-full" id="gallery">
+    <div class="section">
+      <h2 class="section-title">Dokumentasi Proyek</h2>
+      <div class="red-line"></div>
+      <p class="section-subtitle">Rekam jejak pekerjaan las baja dan konstruksi baja kami di berbagai proyek di seluruh Indonesia.</p>
+      <div class="gallery">
+        <img src="https://res.cloudinary.com/denrtx3a9/image/upload/v1777534113/Whisk_6801422eaf960638d55492cfd1428533dr_odtfv1.jpg" alt="Proyek Las Baja Jakarta">
+        <img src="https://res.cloudinary.com/denrtx3a9/image/upload/v1777534105/Whisk_a31b1e87904894f83804ce680f124e24dr_bc0q9i.jpg" alt="Konstruksi Baja Bogor">
+        <img src="https://res.cloudinary.com/denrtx3a9/image/upload/v1777534105/Whisk_6fc1000b29e45d3b0504cbdf9532142fdr_iovui3.jpg" alt="Supplier Baja WF Depok">
+        <img src="https://res.cloudinary.com/denrtx3a9/image/upload/v1777534108/Whisk_9b8ab3cfa1ab64dae0b42539aaab6542dr_fuctqx.jpg" alt="Las Baja Tangerang">
+        <img src="https://res.cloudinary.com/denrtx3a9/image/upload/v1777534109/Whisk_5f82684512db64ea675458fdbddfd58ddr_oaorh0.jpg" alt="Las Baja Bekasi">
+        <img src="https://res.cloudinary.com/denrtx3a9/image/upload/v1777534110/Whisk_4579e8938f31d09b3924d0ef19fe2826dr_rtjavx.jpg" alt="Proyek Baja Indonesia">
+        <img src="https://res.cloudinary.com/denrtx3a9/image/upload/v1777534109/Whisk_fc9c8854fcf0a5892e24f6d8624fcbd6dr_vomypd.jpg" alt="Jasa Las Baja Profesional">
+      </div>
+    </div>
+  </div>
+
+  <!-- CTA -->
+  <section class="section" id="kontak">
+    <div class="cta-banner">
+      <h2>Butuh Jasa Las atau Supplier Baja?</h2>
+      <p>Konsultasikan proyek Anda sekarang dan dapatkan estimasi harga GRATIS dari tim profesional kami. Kami siap melayani 7 hari seminggu.</p>
+      <a href="https://wa.me/6285811251660?text=Halo%2C%20saya%20ingin%20konsultasi%20jasa%20las%20baja" class="btn" target="_blank" style="background:#fff;color:var(--red)">💬 KONSULTASI SEKARANG!</a>
+    </div>
+    <div style="text-align:center;margin-top:30px;color:#555">
+      <p><strong>WhatsApp:</strong> 085811251660 &nbsp;|&nbsp; <strong>Lokasi:</strong> Jakarta Barat, Indonesia &nbsp;|&nbsp; <strong>Operasional:</strong> Senin–Minggu 07.00–21.00</p>
+    </div>
+  </section>
+
+</div><!-- end page-home -->
+
+<!-- ===================== AREA LIST PAGE ===================== -->
+<div class="page" id="page-area">
+  <div style="height:80px"></div>
+  <section class="section">
+    <h1 class="section-title" style="font-size:36px">Area Layanan Jasa Las Baja Kami</h1>
+    <div class="red-line"></div>
+    <p class="section-subtitle">Kami melayani jasa las baja jabodetabek dan proyek konstruksi baja di seluruh Indonesia. Pilih wilayah Anda untuk informasi lengkap.</p>
+    <div class="area-grid">
+      <div class="area-card" onclick="showAreaPage('jakarta')">
+        <img src="https://res.cloudinary.com/denrtx3a9/image/upload/v1777534113/Whisk_6801422eaf960638d55492cfd1428533dr_odtfv1.jpg" alt="Jasa Las Baja Jakarta">
+        <div class="area-badge">Utama</div>
+        <div class="area-card-overlay"><h3>Jakarta</h3><p>5 Wilayah Tersedia</p><span class="lihat-detail">Lihat Detail →</span></div>
+      </div>
+      <div class="area-card" onclick="showAreaPage('bogor')">
+        <img src="https://res.cloudinary.com/denrtx3a9/image/upload/v1777534105/Whisk_a31b1e87904894f83804ce680f124e24dr_bc0q9i.jpg" alt="Jasa Las Baja Bogor">
+        <div class="area-card-overlay"><h3>Bogor</h3><p>Kota & Kabupaten</p><span class="lihat-detail">Lihat Detail →</span></div>
+      </div>
+      <div class="area-card" onclick="showAreaPage('depok')">
+        <img src="https://res.cloudinary.com/denrtx3a9/image/upload/v1777534105/Whisk_6fc1000b29e45d3b0504cbdf9532142fdr_iovui3.jpg" alt="Jasa Las Baja Depok">
+        <div class="area-card-overlay"><h3>Depok</h3><p>Seluruh Kecamatan Depok</p><span class="lihat-detail">Lihat Detail →</span></div>
+      </div>
+      <div class="area-card" onclick="showAreaPage('tangerang')">
+        <img src="https://res.cloudinary.com/denrtx3a9/image/upload/v1777534108/Whisk_9b8ab3cfa1ab64dae0b42539aaab6542dr_fuctqx.jpg" alt="Jasa Las Baja Tangerang">
+        <div class="area-card-overlay"><h3>Tangerang</h3><p>Kota & Kabupaten Tangerang</p><span class="lihat-detail">Lihat Detail →</span></div>
+      </div>
+      <div class="area-card" onclick="showAreaPage('bekasi')">
+        <img src="https://res.cloudinary.com/denrtx3a9/image/upload/v1777534109/Whisk_5f82684512db64ea675458fdbddfd58ddr_oaorh0.jpg" alt="Jasa Las Baja Bekasi">
+        <div class="area-card-overlay"><h3>Bekasi</h3><p>Kota & Kabupaten Bekasi</p><span class="lihat-detail">Lihat Detail →</span></div>
+      </div>
+      <div class="area-card" onclick="showAreaPage('nasional')">
+        <img src="https://res.cloudinary.com/denrtx3a9/image/upload/v1777534110/Whisk_4579e8938f31d09b3924d0ef19fe2826dr_rtjavx.jpg" alt="Jasa Las Baja Seluruh Indonesia">
+        <div class="area-badge" style="background:#333">Nasional</div>
+        <div class="area-card-overlay"><h3>Seluruh Indonesia</h3><p>Bandung, Surabaya, Bali & Lainnya</p><span class="lihat-detail">Lihat Detail →</span></div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ===================== AREA DETAIL PAGES ===================== -->
+<div class="page" id="page-area-detail">
+  <div id="area-detail-content"></div>
+</div>
+
+<!-- FOOTER (shared) -->
+<footer id="site-footer">
+  <div class="footer-inner">
+    <div class="footer-col">
+      <h4>LAS BAJA INDONESIA</h4>
+      <p>Jasa las baja profesional, supplier baja WF, dan proyek konstruksi baja terpercaya sejak 2007. Melayani seluruh wilayah Indonesia.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Layanan</h4>
+      <a href="#">Jasa Las Baja</a>
+      <a href="#">Supplier Baja WF</a>
+      <a href="#">Proyek Konstruksi Baja</a>
+      <a href="#">Baja Ringan</a>
+      <a href="#">Kanopi Baja</a>
+    </div>
+    <div class="footer-col">
+      <h4>Area Layanan</h4>
+      <a onclick="showAreaPage('jakarta')" href="#">Jasa Las Baja Jakarta</a>
+      <a onclick="showAreaPage('bogor')" href="#">Jasa Las Baja Bogor</a>
+      <a onclick="showAreaPage('depok')" href="#">Jasa Las Baja Depok</a>
+      <a onclick="showAreaPage('tangerang')" href="#">Jasa Las Baja Tangerang</a>
+      <a onclick="showAreaPage('bekasi')" href="#">Jasa Las Baja Bekasi</a>
+    </div>
+    <div class="footer-col">
+      <h4>Kontak</h4>
+      <p>📱 085811251660</p>
+      <p>📍 Jakarta Barat, Indonesia</p>
+      <p>🕐 Senin–Minggu 07.00–21.00</p>
+      <a href="https://wa.me/6285811251660" class="wa-btn" style="margin-top:12px;border-radius:4px" target="_blank">💬 WhatsApp Sekarang</a>
+    </div>
+  </div>
+  <div class="footer-bottom"><p>© 2026 LAS BAJA INDONESIA — Jasa Las Baja Profesional Jabodetabek & Seluruh Indonesia</p></div>
+</footer>
+
+<a href="https://wa.me/6285811251660" class="wa-float" target="_blank" title="Chat WhatsApp">💬</a>
+
+<script>
+// ===== DATA =====
+const areaData = {
+  jakarta: {
+    name: "Jakarta",
+    h1: "Jasa Las Baja Jakarta Profesional & Terpercaya",
+    label: "Jasa Las Baja Jakarta",
+    img: "https://res.cloudinary.com/denrtx3a9/image/upload/v1777534113/Whisk_6801422eaf960638d55492cfd1428533dr_odtfv1.jpg",
+    desc: `<p>Jasa las baja Jakarta dari Las Baja Indonesia hadir sebagai solusi terpercaya untuk seluruh kebutuhan konstruksi baja Anda di ibu kota dan seluruh wilayah DKI Jakarta. Dengan pengalaman lebih dari 17 tahun dan tim yang terdiri dari lebih dari 150 tenaga profesional bersertifikat, kami mampu menangani berbagai proyek las baja — mulai dari pekerjaan rumah tangga seperti pagar baja, kanopi, dan carport, hingga proyek industri besar seperti konstruksi gudang, pabrik, gedung bertingkat, dan infrastruktur publik.</p>
+    <p>Jakarta sebagai pusat ekonomi Indonesia memiliki permintaan tinggi terhadap jasa las baja berkualitas. Kami memahami dinamika pekerjaan di lingkungan perkotaan yang padat — mulai dari akses lokasi yang terbatas, jadwal yang ketat, hingga standar keamanan yang ketat. Tim kami dilengkapi peralatan las modern termasuk mesin las MIG, TIG, SMAW, dan plasma cutting, sehingga mampu mengerjakan berbagai jenis material baja dengan presisi tinggi.</p>
+    <p>Selain jasa las baja, kami juga merupakan supplier baja WF dan material konstruksi baja terpercaya di Jakarta. Stok kami mencakup baja WF berbagai ukuran, baja hollow, canal C, siku baja, plat baja, dan baja ringan, semua tersedia dengan standar kualitas SNI. Pengiriman material dapat dilakukan ke seluruh wilayah Jakarta dalam waktu cepat, sehingga proyek Anda tidak akan terhambat.</p>
+    <p>Kami telah menyelesaikan lebih dari 500 proyek di Jakarta — dari renovasi rumah tinggal di kawasan perumahan hingga proyek konstruksi baja gedung komersial di pusat kota. Kepercayaan klien adalah aset terbesar kami, dan setiap proyek dikerjakan dengan standar keselamatan kerja tertinggi serta jaminan kualitas yang transparan.</p>`,
+    kecamatan: ["Jakarta Selatan","Jakarta Barat","Jakarta Timur","Jakarta Utara","Jakarta Pusat","Kebayoran Baru","Kebayoran Lama","Cilandak","Pasar Minggu","Mampang","Tebet","Setiabudi","Penjaringan","Tanjung Priok","Pademangan","Kelapa Gading","Grogol Petamburan","Kebon Jeruk","Cengkareng","Kembangan","Tamansari","Cakung","Duren Sawit","Jatinegara","Kramat Jati","Matraman","Gambir","Sawah Besar","Kemayoran","Senen"],
+    services: ["Jasa las baja konstruksi gedung dan gudang","Pembuatan dan pemasangan pagar baja","Kanopi dan carport baja","Rangka atap baja ringan","Supplier baja WF, hollow, canal C","Fabrikasi baja custom","Las baja untuk renovasi dan interior"],
+    faq: [
+      {q:"Berapa biaya jasa las baja di Jakarta?", a:"Biaya jasa las baja di Jakarta bervariasi tergantung jenis pekerjaan, volume, dan spesifikasi material. Hubungi kami untuk mendapatkan estimasi harga gratis dan transparan sesuai kebutuhan proyek Anda."},
+      {q:"Apakah melayani seluruh wilayah Jakarta?", a:"Ya, kami melayani seluruh 5 kota administrasi DKI Jakarta — Jakarta Selatan, Barat, Timur, Utara, dan Pusat — termasuk semua kecamatan dan kelurahan di dalamnya."},
+      {q:"Berapa lama pengerjaan las baja di Jakarta?", a:"Lama pengerjaan tergantung skala proyek. Pekerjaan ringan seperti pagar atau kanopi biasanya selesai dalam 1–3 hari. Proyek konstruksi besar bisa memakan waktu beberapa minggu hingga bulan."},
+      {q:"Apakah ada garansi untuk pekerjaan las baja?", a:"Ya, kami memberikan garansi kualitas untuk setiap pekerjaan las baja yang kami kerjakan. Garansi mencakup kekokohan sambungan las dan kerapian hasil pengerjaan."},
+      {q:"Bagaimana cara memesan jasa las baja Jakarta?", a:"Hubungi kami via WhatsApp di 085811251660. Tim kami akan melakukan survei lokasi gratis, memberikan konsultasi teknis, dan menyiapkan penawaran harga yang kompetitif."}
+    ]
+  },
+  bogor: {
+    name: "Bogor",
+    h1: "Jasa Las Baja Bogor Profesional & Bergaransi",
+    label: "Jasa Las Baja Bogor",
+    img: "https://res.cloudinary.com/denrtx3a9/image/upload/v1777534105/Whisk_a31b1e87904894f83804ce680f124e24dr_bc0q9i.jpg",
+    desc: `<p>Jasa las baja Bogor dari Las Baja Indonesia hadir untuk memenuhi kebutuhan konstruksi baja Anda di Kota dan Kabupaten Bogor. Bogor sebagai salah satu kota penyangga Jakarta memiliki pertumbuhan properti dan industri yang pesat, mendorong tingginya permintaan akan jasa las baja berkualitas. Kami hadir dengan tim profesional berpengalaman yang siap menangani berbagai proyek baja di wilayah Bogor dan sekitarnya.</p>
+    <p>Dengan lebih dari 17 tahun pengalaman di bidang konstruksi baja, kami telah menyelesaikan ratusan proyek di wilayah Bogor — mulai dari rumah tinggal, ruko, kompleks perumahan, hingga pabrik dan gudang industri di kawasan Citeureup, Cibinong, dan Gunung Putri. Tim kami memahami karakteristik wilayah Bogor, termasuk kondisi tanah yang berbukit dan curah hujan tinggi yang membutuhkan struktur baja dengan kekuatan dan ketahanan ekstra.</p>
+    <p>Layanan kami di Bogor mencakup jasa las baja struktural, pembuatan rangka atap baja, pagar dan kanopi, fabrikasi baja custom, serta penyediaan material baja WF, baja ringan, dan material konstruksi lainnya. Pengiriman material baja dari Jakarta ke Bogor kami lakukan dengan cepat menggunakan armada pengiriman sendiri, memastikan material tiba tepat waktu dan dalam kondisi baik.</p>
+    <p>Kami juga melayani kawasan industri besar di Kabupaten Bogor seperti Kawasan Industri Citeureup, Narogong, dan Jonggol. Tim teknis kami siap berkoordinasi dengan kontraktor utama dan owner proyek untuk memastikan pengerjaan baja sesuai spesifikasi teknis dan jadwal yang telah disepakati.</p>`,
+    kecamatan: ["Kota Bogor","Bogor Selatan","Bogor Utara","Bogor Timur","Bogor Barat","Bogor Tengah","Cibinong","Citeureup","Gunung Putri","Cileungsi","Parung","Jonggol","Dramaga","Ciomas","Kemang","Tajurhalang","Caringin","Cigombong","Megamendung","Cisarua"],
+    services: ["Las baja konstruksi gudang dan pabrik di Bogor","Rangka atap baja untuk iklim Bogor yang lembap","Pagar baja dan kanopi perumahan","Supplier baja WF Bogor","Fabrikasi baja untuk kawasan industri","Konstruksi baja struktur bangunan","Las baja ringan dan galvanis"],
+    faq: [
+      {q:"Apakah melayani seluruh Kota dan Kabupaten Bogor?", a:"Ya, kami melayani seluruh wilayah Kota Bogor (6 kecamatan) dan Kabupaten Bogor (40 kecamatan), termasuk kawasan industri di Citeureup, Cibinong, Gunung Putri, dan Cileungsi."},
+      {q:"Berapa biaya jasa las baja di Bogor?", a:"Biaya bervariasi sesuai jenis pekerjaan dan spesifikasi material. Kami menawarkan survei lokasi gratis dan estimasi harga transparan. Hubungi WhatsApp kami untuk konsultasi."},
+      {q:"Apakah ada biaya tambahan untuk proyek di luar Kota Bogor?", a:"Untuk wilayah Kabupaten Bogor yang jauh, mungkin ada biaya mobilisasi tambahan. Namun kami berupaya memberikan harga sekompetitif mungkin. Silakan konsultasikan proyek Anda dengan tim kami."},
+      {q:"Berapa lama waktu pengerjaan konstruksi baja di Bogor?", a:"Tergantung skala proyek. Pekerjaan kecil-menengah biasanya 2–7 hari, sedangkan proyek besar bisa 2–12 minggu. Kami selalu memberikan estimasi waktu yang realistis sebelum pengerjaan dimulai."},
+      {q:"Apakah menyediakan material baja di Bogor?", a:"Ya, kami menyediakan lengkap material baja termasuk baja WF, hollow, canal C, plat, dan baja ringan. Pengiriman ke seluruh wilayah Bogor dilakukan dengan armada kami sendiri."}
+    ]
+  },
+  depok: {
+    name: "Depok",
+    h1: "Jasa Las Baja Depok Profesional, Cepat & Bergaransi",
+    label: "Jasa Las Baja Depok",
+    img: "https://res.cloudinary.com/denrtx3a9/image/upload/v1777534105/Whisk_6fc1000b29e45d3b0504cbdf9532142fdr_iovui3.jpg",
+    desc: `<p>Jasa las baja Depok dari Las Baja Indonesia adalah pilihan tepat bagi Anda yang membutuhkan layanan las baja profesional di Kota Depok dan sekitarnya. Depok sebagai kota satelit yang berkembang pesat dengan jutaan penduduk dan ratusan komplek perumahan baru setiap tahun, memiliki kebutuhan besar terhadap jasa konstruksi baja yang andal dan terpercaya.</p>
+    <p>Tim kami yang berbasis di Jabodetabek mampu menjangkau seluruh wilayah Depok dengan respons cepat — biasanya survei dapat dilakukan dalam 1x24 jam setelah permintaan diterima. Kami menangani berbagai jenis pekerjaan baja di Depok, mulai dari proyek residensial seperti pagar baja, kanopi baja, carport, tangga baja, dan rangka atap, hingga proyek komersial dan industri seperti konstruksi gudang, bengkel, dan bangunan komersial.</p>
+    <p>Depok juga memiliki banyak kawasan pergudangan dan industri ringan, khususnya di wilayah Cimanggis dan Tapos. Kami berpengalaman menangani proyek-proyek di kawasan tersebut dengan memahami persyaratan teknis dan regulasi setempat. Material baja yang kami gunakan bersumber dari produsen terpercaya dengan sertifikasi SNI, memastikan kualitas dan keamanan struktur baja yang kami bangun.</p>
+    <p>Layanan kami di Depok didukung oleh armada pengiriman yang memadai sehingga material baja dapat tiba di lokasi proyek dengan cepat. Kami juga menyediakan layanan konsultasi teknis gratis untuk membantu Anda merencanakan proyek baja dengan efisien dan sesuai anggaran.</p>`,
+    kecamatan: ["Beji","Bojongsari","Cilodong","Cimanggis","Cinere","Cipayung","Limo","Pancoran Mas","Sawangan","Sukmajaya","Tapos","Depok","Citayam","Ciputat","Pondok Cina","Kukusan","Tugu","Mampang","Kalimulya"],
+    services: ["Jasa las baja pagar dan kanopi Depok","Rangka atap baja ringan perumahan","Konstruksi baja gudang dan komersial","Tangga baja dan railing","Supplier baja WF Depok dan sekitarnya","Fabrikasi baja struktural","Las baja galvanis anti karat"],
+    faq: [
+      {q:"Berapa estimasi biaya jasa las baja di Depok?", a:"Harga bervariasi sesuai jenis dan skala pekerjaan. Sebagai gambaran, pagar baja mulai Rp150.000/m, kanopi baja mulai Rp300.000/m². Hubungi kami untuk penawaran akurat sesuai spesifikasi Anda."},
+      {q:"Apakah melayani seluruh kecamatan di Depok?", a:"Ya, kami melayani seluruh 11 kecamatan di Kota Depok, termasuk Beji, Cimanggis, Cinere, Sawangan, Sukmajaya, Tapos, dan kecamatan lainnya."},
+      {q:"Berapa lama survei dan pengerjaan di Depok?", a:"Survei gratis biasanya kami jadwalkan dalam 1x24 jam. Pengerjaan las baja ringan 1–3 hari, proyek menengah-besar 1–4 minggu tergantung kompleksitas."},
+      {q:"Apakah bisa mengerjakan proyek konstruksi besar di Depok?", a:"Tentu. Kami berpengalaman menangani proyek konstruksi baja skala besar di Depok, termasuk gudang, pabrik, dan bangunan komersial. Tim kami lengkap dengan peralatan fabrikasi baja heavy duty."},
+      {q:"Bagaimana cara mendapatkan penawaran harga terbaik?", a:"Hubungi WhatsApp kami di 085811251660. Ceritakan kebutuhan proyek Anda, dan kami akan segera mengirim tim surveyor untuk assessment gratis sebelum memberikan penawaran harga terbaik."}
+    ]
+  },
+  tangerang: {
+    name: "Tangerang",
+    h1: "Jasa Las Baja Tangerang – Profesional untuk Semua Skala Proyek",
+    label: "Jasa Las Baja Tangerang",
+    img: "https://res.cloudinary.com/denrtx3a9/image/upload/v1777534108/Whisk_9b8ab3cfa1ab64dae0b42539aaab6542dr_fuctqx.jpg",
+    desc: `<p>Jasa las baja Tangerang dari Las Baja Indonesia hadir untuk melayani kebutuhan konstruksi baja di Kota Tangerang, Kabupaten Tangerang, dan Tangerang Selatan. Tangerang adalah salah satu wilayah dengan pertumbuhan industri dan properti tercepat di Indonesia, menjadikannya pasar utama bagi layanan konstruksi baja berkualitas tinggi.</p>
+    <p>Kawasan industri di Tangerang — termasuk Berikat Nusantara, KIIC, dan berbagai kawasan industri di Cikarang Barat serta Cisauk — membutuhkan layanan las baja yang handal, cepat, dan memenuhi standar teknis tinggi. Tim kami berpengalaman mengerjakan berbagai proyek industri di Tangerang, termasuk konstruksi baja untuk pabrik, gudang besar, hanggar, dan fasilitas produksi dengan kebutuhan struktur baja yang kompleks.</p>
+    <p>Di sisi residensial, kawasan perumahan premium Tangerang Selatan seperti BSD City, Alam Sutera, Bintaro, dan Serpong terus berkembang dengan permintaan tinggi untuk kanopi baja, pagar, carport, dan interior berbahan baja. Kami memiliki pengalaman luas mengerjakan proyek-proyek di kawasan ini dengan standar estetika dan teknis yang sesuai dengan tuntutan hunian modern.</p>
+    <p>Las Baja Indonesia juga menyediakan layanan pengadaan dan pengiriman material baja ke seluruh wilayah Tangerang. Dengan sistem logistik yang terorganisasi, kami mampu memastikan material baja WF, hollow, canal C, dan baja ringan tiba di lokasi proyek sesuai jadwal, mendukung kelancaran proyek konstruksi Anda.</p>`,
+    kecamatan: ["Kota Tangerang","Ciledug","Cipondoh","Karawaci","Periuk","Batuceper","Tangerang Selatan","Serpong","Serpong Utara","Pondok Aren","Ciputat","Pamulang","Bintaro","BSD City","Alam Sutera","Gading Serpong","Kabupaten Tangerang","Tigaraksa","Cisauk","Kelapa Dua","Legok","Pasar Kemis","Balaraja","Cikupa"],
+    services: ["Las baja konstruksi pabrik dan gudang industri Tangerang","Kanopi dan pagar baja BSD City & Serpong","Fabrikasi baja custom untuk kawasan industri","Rangka atap baja ringan perumahan","Supplier baja WF Tangerang Selatan","Konstruksi baja komersial Tangerang","Las baja stainless dan galvanis"],
+    faq: [
+      {q:"Apakah melayani seluruh area Tangerang Raya?", a:"Ya, kami melayani Kota Tangerang, Kabupaten Tangerang, dan Kota Tangerang Selatan termasuk kawasan BSD, Serpong, Bintaro, Alam Sutera, Ciputat, dan seluruh kecamatan di dalamnya."},
+      {q:"Bagaimana untuk proyek pabrik atau gudang di kawasan industri Tangerang?", a:"Kami berpengalaman di kawasan industri Tangerang. Hubungi kami dengan detail proyek dan kami siap mengirim tim teknis untuk assessment dan penawaran kompetitif."},
+      {q:"Berapa biaya kanopi baja di Tangerang Selatan?", a:"Kanopi baja mulai Rp350.000–Rp650.000/m² tergantung model dan spesifikasi material. Kami menawarkan survei gratis dan penawaran transparan."},
+      {q:"Apakah tersedia material baja di Tangerang?", a:"Kami menyediakan material baja lengkap dengan pengiriman ke seluruh Tangerang Raya. Lead time pengiriman biasanya 1–2 hari kerja."},
+      {q:"Apakah ada tim yang standby di Tangerang?", a:"Ya, kami memiliki tim teknis yang siap dimobilisasi ke seluruh wilayah Tangerang dengan respons cepat. Hubungi kami sekarang untuk penjadwalan."}
+    ]
+  },
+  bekasi: {
+    name: "Bekasi",
+    h1: "Jasa Las Baja Bekasi – Solusi Konstruksi Baja untuk Industri & Hunian",
+    label: "Jasa Las Baja Bekasi",
+    img: "https://res.cloudinary.com/denrtx3a9/image/upload/v1777534109/Whisk_5f82684512db64ea675458fdbddfd58ddr_oaorh0.jpg",
+    desc: `<p>Jasa las baja Bekasi dari Las Baja Indonesia hadir untuk memenuhi kebutuhan konstruksi baja di Kota Bekasi dan Kabupaten Bekasi yang terus berkembang pesat. Bekasi dikenal sebagai salah satu pusat industri terbesar di Indonesia, dengan kawasan-kawasan industri besar seperti Cikarang, MM2100, EJIP, BIIE, dan Delta Silicon yang menjadi rumah bagi ribuan perusahaan manufaktur nasional dan multinasional.</p>
+    <p>Pengalaman kami di Bekasi mencakup berbagai proyek berskala besar — konstruksi baja untuk pabrik manufaktur, gudang logistik, fasilitas produksi, hingga bangunan infrastruktur pendukung kawasan industri. Tim welder dan fitter kami terlatih untuk mengerjakan proyek-proyek dengan standar internasional, termasuk penggunaan prosedur pengelasan yang sesuai dengan standar ASME, AWS, dan SNI.</p>
+    <p>Di luar kawasan industri, Bekasi juga merupakan daerah pemukiman terbesar di Jabodetabek dengan jutaan unit hunian. Kami melayani kebutuhan jasa las baja untuk perumahan di Bekasi, termasuk pagar baja, kanopi, carport, tangga baja, railing balkon, dan berbagai kebutuhan konstruksi baja skala rumah tangga. Dengan respons cepat dan harga kompetitif, kami menjadi mitra terpercaya bagi pemilik rumah di Bekasi.</p>
+    <p>Las Baja Indonesia juga aktif sebagai supplier baja WF dan material konstruksi baja di Bekasi. Dengan gudang material yang berlokasi strategis, kami mampu melayani pengiriman material ke seluruh wilayah Bekasi dengan waktu singkat — mendukung kelancaran proyek konstruksi Anda tanpa hambatan ketersediaan material.</p>`,
+    kecamatan: ["Kota Bekasi","Bekasi Barat","Bekasi Timur","Bekasi Utara","Bekasi Selatan","Rawalumbu","Pondok Gede","Jatiasih","Bantargebang","Mustika Jaya","Medansatria","Jatisampurna","Cikarang","Cikarang Barat","Cikarang Utara","Cikarang Selatan","Cikarang Timur","Tambun","Cibitung","Tarumajaya","Muaragembong","Pebayuran"],
+    services: ["Las baja konstruksi pabrik kawasan industri Cikarang","Fabrikasi baja presisi untuk manufaktur","Pagar dan kanopi baja perumahan Bekasi","Supplier baja WF Bekasi dan Cikarang","Konstruksi gudang dan warehouse","Rangka atap baja untuk properti komersial","Las baja stainless steel industri"],
+    faq: [
+      {q:"Apakah melayani kawasan industri di Bekasi seperti Cikarang?", a:"Ya, kami memiliki banyak pengalaman di kawasan industri Bekasi termasuk Cikarang Barat, MM2100, EJIP, BIIE, Delta Silicon, dan kawasan industri lainnya. Tim kami terbiasa dengan prosedur HSE kawasan industri."},
+      {q:"Berapa biaya jasa las baja di Bekasi?", a:"Biaya tergantung jenis dan volume pekerjaan. Kami menawarkan harga kompetitif dengan kualitas premium. Hubungi kami untuk survei gratis dan penawaran detail."},
+      {q:"Apakah bisa mengerjakan proyek baja dalam jumlah besar di Bekasi?", a:"Tentu, kami siap mengerjakan proyek konstruksi baja skala besar. Dengan lebih dari 150 tenaga profesional dan peralatan fabrikasi lengkap, kami mampu menangani proyek baja hingga skala ratusan ton."},
+      {q:"Bagaimana sistem pembayaran untuk proyek baja di Bekasi?", a:"Kami menerapkan sistem pembayaran bertahap sesuai progress pekerjaan. Detail sistem pembayaran akan dijelaskan dalam kontrak proyek yang transparan sebelum pekerjaan dimulai."},
+      {q:"Apakah ada layanan maintenance dan perbaikan las baja di Bekasi?", a:"Ya, kami menyediakan layanan maintenance dan perbaikan las baja untuk aset-aset industri dan properti di Bekasi. Hubungi kami untuk informasi paket maintenance."}
+    ]
+  },
+  nasional: {
+    name: "Seluruh Indonesia",
+    h1: "Jasa Las Baja Seluruh Indonesia – Proyek Skala Nasional",
+    label: "Jasa Las Baja Nasional",
+    img: "https://res.cloudinary.com/denrtx3a9/image/upload/v1777534110/Whisk_4579e8938f31d09b3924d0ef19fe2826dr_rtjavx.jpg",
+    desc: `<p>Las Baja Indonesia tidak hanya melayani wilayah Jabodetabek — kami juga hadir untuk proyek-proyek konstruksi baja di seluruh Indonesia. Dengan tim yang berpengalaman dan kemampuan mobilisasi ke berbagai daerah, kami siap menjadi partner konstruksi baja Anda di mana pun proyek Anda berada, dari Sabang hingga Merauke.</p>
+    <p>Selama lebih dari 17 tahun beroperasi, kami telah menyelesaikan lebih dari 1500 proyek, termasuk ratusan proyek di luar Jabodetabek di berbagai kota besar Indonesia. Dari konstruksi pabrik di Surabaya dan Semarang, hingga proyek infrastruktur di Kalimantan dan Sulawesi, kami membawa standar kualitas Jabodetabek ke seluruh pelosok nusantara.</p>
+    <p>Untuk proyek di luar Jabodetabek, kami menyediakan layanan pengadaan material baja sekaligus jasa konstruksi dengan sistem turnkey — mulai dari perencanaan teknis, pengadaan material, fabrikasi, pengiriman, hingga pemasangan di lokasi. Sistem ini memudahkan klien dalam mengelola proyek baja tanpa perlu berkoordinasi dengan banyak vendor.</p>
+    <p>Tim teknis kami juga berpengalaman dalam mengelola logistik material baja ke daerah-daerah terpencil, termasuk pengiriman melalui jalur laut ke pulau-pulau di Indonesia. Kami memiliki jaringan mitra pengiriman yang luas untuk memastikan material baja tiba di lokasi proyek tepat waktu meskipun berada di lokasi yang sulit dijangkau.</p>`,
+    kecamatan: ["Bandung & Jawa Barat","Surabaya & Jawa Timur","Semarang & Jawa Tengah","Yogyakarta","Bali & Nusa Tenggara","Medan & Sumatera Utara","Palembang & Sumatera Selatan","Pekanbaru & Riau","Banjarmasin & Kalimantan Selatan","Samarinda & Kalimantan Timur","Balikpapan","Makassar & Sulawesi Selatan","Manado & Sulawesi Utara","Pontianak & Kalimantan Barat","Kupang & NTT","Maluku","Papua & Papua Barat"],
+    services: ["Konstruksi baja turnkey skala nasional","Fabrikasi baja + pengiriman ke seluruh Indonesia","Proyek baja untuk industri pertambangan","Konstruksi gudang dan pabrik di luar Jawa","Supplier baja WF ke seluruh Indonesia","Jasa las baja offshore dan onshore","Proyek infrastruktur baja pemerintah dan swasta"],
+    faq: [
+      {q:"Apakah bisa mengerjakan proyek di luar Jawa?", a:"Ya, kami melayani proyek konstruksi baja di seluruh Indonesia. Kami memiliki pengalaman mengerjakan proyek di Kalimantan, Sulawesi, Sumatera, Bali, dan Papua."},
+      {q:"Bagaimana sistem pengiriman material baja ke luar Jawa?", a:"Kami menggunakan kombinasi jalur darat dan laut untuk pengiriman ke luar Jawa. Kami memiliki rekanan forwarding terpercaya yang mampu menjangkau hampir seluruh kota di Indonesia."},
+      {q:"Berapa biaya mobilisasi tim ke luar Jabodetabek?", a:"Biaya mobilisasi tergantung lokasi dan durasi proyek. Biasanya termasuk dalam total penawaran proyek yang kami buat setelah survei. Hubungi kami untuk diskusi lebih lanjut."},
+      {q:"Apakah bisa menangani proyek pertambangan atau migas?", a:"Ya, kami berpengalaman dalam konstruksi baja untuk industri pertambangan, migas, dan energi. Tim kami memahami standar keselamatan dan teknis yang diperlukan untuk industri tersebut."},
+      {q:"Bagaimana sistem koordinasi proyek di kota lain?", a:"Kami memiliki project manager yang bertanggung jawab untuk setiap proyek luar kota. Komunikasi dilakukan secara digital dengan laporan progress mingguan, dan perwakilan kami siap hadir di lapangan sesuai kebutuhan."}
+    ]
+  }
+};
+
+// ===== PAGE LOGIC =====
+function showPage(pageId) {
+  document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+  document.getElementById('page-' + pageId)?.classList.add('active');
+  window.scrollTo({top:0, behavior:'smooth'});
+}
+
+function showAreaPage(areaId) {
+  const data = areaData[areaId];
+  if (!data) return;
+  
+  const kecList = data.kecamatan.map(k => `<div class="kec-item">📍 ${k}</div>`).join('');
+  const serviceList = data.services.map(s => `<li>${s}</li>`).join('');
+  const faqHtml = data.faq.map((f,i) => `
+    <div class="faq-item" id="faq-${areaId}-${i}">
+      <div class="faq-q" onclick="toggleFaq('faq-${areaId}-${i}')">
+        <span>${f.q}</span><span class="faq-icon">+</span>
+      </div>
+      <div class="faq-a">${f.a}</div>
+    </div>`).join('');
+
+  const html = `
+    <div class="area-hero" style="background-image:url('${data.img}')">
+      <div class="area-hero-content">
+        <div class="breadcrumb">
+          <a onclick="showPage('home')">Home</a> › 
+          <a onclick="showPage('area')">Area Layanan</a> › 
+          <span>${data.name}</span>
+        </div>
+        <div class="label">${data.label}</div>
+        <h1>${data.h1}</h1>
+      </div>
+    </div>
+    <div class="area-body">
+      <div class="area-main">
+        <div style="margin-bottom:20px">
+          <span onclick="showPage('area')" class="back-btn">← Kembali ke Area Layanan</span>
+        </div>
+        ${data.desc}
+
+        <h2>Kecamatan / Daerah yang Kami Layani</h2>
+        <div class="kecamatan-list">${kecList}</div>
+
+        <h2>Layanan Jasa Las Baja di ${data.name}</h2>
+        <p>Tim profesional Las Baja Indonesia siap mengerjakan berbagai jenis proyek baja di ${data.name} dengan standar kualitas tertinggi:</p>
+        <ul class="service-list">${serviceList}</ul>
+
+        <div class="cta-banner" style="margin:40px 0">
+          <h2 style="font-size:26px">Butuh Jasa Las Baja di ${data.name}?</h2>
+          <p>Konsultasi gratis, survey lokasi GRATIS, estimasi harga transparan. Hubungi kami sekarang!</p>
+          <a href="https://wa.me/6285811251660?text=Halo%2C%20saya%20butuh%20jasa%20las%20baja%20di%20${encodeURIComponent(data.name)}" class="btn" style="background:#fff;color:var(--red)" target="_blank">💬 Chat WhatsApp Sekarang</a>
+        </div>
+
+        <h2>FAQ – Pertanyaan Umum Seputar Jasa Las Baja ${data.name}</h2>
+        <div style="margin-top:16px">${faqHtml}</div>
+      </div>
+
+      <div>
+        <div class="sidebar-card">
+          <h3>Konsultasi Gratis</h3>
+          <p style="font-size:14px;color:#666;margin-bottom:4px">Dapatkan estimasi harga dan survei lokasi GRATIS dari tim kami.</p>
+          <ul>
+            <li>Survey lokasi GRATIS</li>
+            <li>Garansi kerapian hasil</li>
+            <li>Tim 17+ tahun pengalaman</li>
+            <li>Material SNI bersertifikat</li>
+            <li>Pengerjaan tepat waktu</li>
+            <li>Bergaransi resmi</li>
+          </ul>
+          <a href="https://wa.me/6285811251660?text=Halo%2C%20saya%20butuh%20jasa%20las%20baja%20di%20${encodeURIComponent(data.name)}" class="wa-btn" target="_blank">💬 Hubungi via WhatsApp</a>
+          <div style="margin-top:14px;font-size:13px;color:#888;text-align:center">📱 085811251660<br>📍 Jakarta Barat, Indonesia<br>🕐 07.00 – 21.00 Setiap Hari</div>
+        </div>
+      </div>
+    </div>`;
+
+  document.getElementById('area-detail-content').innerHTML = html;
+  showPage('area-detail');
+}
+
+function toggleFaq(id) {
+  const item = document.getElementById(id);
+  const ans = item.querySelector('.faq-a');
+  item.classList.toggle('open');
+  ans.classList.toggle('open');
+}
+</script>
+</body>
+</html>
